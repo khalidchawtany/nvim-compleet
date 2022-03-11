@@ -12,4 +12,5 @@ repository = "https://github.com/noib3/nvim-compleet"
 crate-type = ["cdylib"]
 
 [dependencies]
-mlua = { version = "0.7.3", features = ["luajit", "vendored", "module", "serialize"] }
+mlua = { version = "0.7", features = ["luajit", "vendored", "module"] }
+neovim = { path = "./neovim" }
